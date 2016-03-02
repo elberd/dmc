@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<meta name="keywords" content="объявления, ингушетия, хоам">
+	<meta name="description" content="{{ Request::is('ad/*') ? $ad->text : 'Сайт бесплатных объявлений в Ингушетии.' }}">
+
+	<link rel="stylesheet" href="{{ Request::root() }}/css/bundle.min.css?{{ filemtime('css/bundle.min.css') }}">
+	<link rel="icon" href="{{ Request::root() }}/img/favicon.png">
+	<title>Damac Projects</title>
+</head>
